@@ -1,0 +1,472 @@
+footer {
+
+  background-color: #f5f5ed;
+
+  display:flex;
+
+  flex-wrap: wrap;
+
+}
+
+#underline ul li a:hover {
+
+  text-decoration: underline;
+
+}
+
+.dropdown-menu {
+
+  background-color: #f5f7f2;
+
+}
+
+#micro img {
+
+  width: 120px;
+
+
+
+}
+
+
+
+.picto a img {
+
+  width: 20px;
+
+}
+
+#contact a img {
+
+  width: 35px;
+
+}
+
+header {
+
+  margin-left: 50px;
+
+  margin-right: 50px;
+
+}
+
+#underline:hover {
+
+  text-decoration: underline;
+
+}
+
+.nav-item{
+
+  display: inline;
+
+  float: left;
+
+
+
+}
+
+#navbarDropdown {
+
+  list-style: none;
+
+  color: #9e9e96;
+
+}
+
+li a {
+
+  list-style: none;
+
+  color: #9e9e96;
+
+}
+
+
+
+.collapse navbar-collapse li a:hover {
+
+  text-decoration: underline;
+
+}
+
+.dropdown-menu {
+
+    width: 600px !important;
+
+    height: 500px !important;
+
+    margin-right: 600px
+
+
+
+
+
+}
+
+.liste {
+
+  flex-direction: row;
+
+  list-style: none;
+
+}
+
+.blocs {
+
+  font-size: 13px;
+
+  padding-right: 35px;
+
+  padding-top: 30px;
+
+}
+
+.liste a {
+
+  text-decoration: none;
+
+  color: #9e9e96;
+
+}
+
+.titlecenter {
+
+  text-align: left;
+
+  margin-left: 40px;
+
+  font-weight: bold;
+
+  color: #787873;
+
+}
+
+li {
+
+  margin-top: 10px;
+
+}
+
+.liste a:hover {
+
+  color: #40403f;
+
+  text-decoration: underline;
+
+}
+
+.inline li {
+
+  display: inline;
+
+  color: #9e9e96;
+
+ }
+
+ #line {
+
+   margin-top: 30px;
+
+ }
+
+#goleft  {
+
+  margin-left: 400px;
+
+
+
+ }
+
+#line a {
+
+  padding-left: 30px;
+
+  font-size: 11px;
+
+  color:  #9e9e96;
+
+ }
+
+#line a:hover {
+
+  color: #40403f;
+
+  text-decoration: underline;
+
+ }
+
+.inline li a img {
+
+  width: 30px;
+
+  padding-right: 10px;
+
+}
+.carousel-caption {
+
+  color: #000000;
+
+  text-align: left;
+
+  margin-left: -5rem;
+
+  top: 15%;
+
+  bottom: auto;
+
+}
+
+#xBoxGamePass {
+
+ background-image: url("../img/xBoxGamePass.jpg");
+
+ background-size: cover;
+
+ height: 600px;
+
+ display: flex;
+
+ justify-content: center;
+
+ align-items: flex-end;
+
+}
+
+li {
+
+  list-style-type: none;
+
+}
+
+h3 {
+
+  margin-top: 2rem;
+
+  font-size: 20px;
+
+}
+
+h4 {
+
+  font-size: 16px;
+
+}
+
+/* media queries bootstrap
+
+@media(max-width:767px){}
+
+@media(min-width:768px){}
+
+@media(min-width:992px){}
+
+@media(min-width:1200px){}
+
+*/
+
+footer {
+
+  background-color: #f5f5ed;
+
+  display:flex;
+
+  flex-wrap: wrap;
+
+}
+
+#underline ul li a:hover {
+
+  text-decoration: underline;
+
+}
+
+.dropdown-menu {
+
+  background-color: #f5f7f2;
+
+}
+
+#micro img {
+
+  width: 120px;
+
+
+
+}
+
+
+
+.picto a img {
+
+  width: 20px;
+
+}
+
+#contact a img {
+
+  width: 35px;
+
+}
+
+header {
+
+  margin-left: 50px;
+
+  margin-right: 50px;
+
+}
+
+#underline:hover {
+
+  text-decoration: underline;
+
+}
+
+.nav-item{
+
+  display: inline;
+
+  float: left;
+
+
+
+}
+
+#navbarDropdown {
+
+  list-style: none;
+
+  color: #9e9e96;
+
+}
+
+li a {
+
+  list-style: none;
+
+  color: #9e9e96;
+
+}
+
+
+
+.collapse navbar-collapse li a:hover {
+
+  text-decoration: underline;
+
+}
+
+.dropdown-menu {
+
+    width: 600px !important;
+
+    height: 500px !important;
+
+    margin-right: 600px
+
+
+
+
+
+}
+
+.liste {
+
+  flex-direction: row;
+
+  list-style: none;
+
+}
+
+.blocs {
+
+  font-size: 13px;
+
+  padding-right: 35px;
+
+  padding-top: 30px;
+
+}
+
+.liste a {
+
+  text-decoration: none;
+
+  color: #9e9e96;
+
+}
+
+.titlecenter {
+
+  text-align: left;
+
+  margin-left: 40px;
+
+  font-weight: bold;
+
+  color: #787873;
+
+}
+
+li {
+
+  margin-top: 10px;
+
+}
+
+.liste a:hover {
+
+  color: #40403f;
+
+  text-decoration: underline;
+
+}
+
+.inline li {
+
+  display: inline;
+
+  color: #9e9e96;
+
+ }
+
+ #line {
+
+   margin-top: 30px;
+
+ }
+
+#goleft  {
+
+  margin-left: 400px;
+
+
+
+ }
+
+#line a {
+
+  padding-left: 30px;
+
+  font-size: 11px;
+
+  color:  #9e9e96;
+
+ }
+
+#line a:hover {
+
+  color: #40403f;
+
+  text-decoration: underline;
+
+ }
+
+.inline li a img {
+
+  width: 30px;
+
+  padding-right: 10px;
+
+}
