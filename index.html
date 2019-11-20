@@ -1,171 +1,319 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Microsoft - Page d'accueil officielle</title>
-  </head>
-  <body>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-  <footer>
-    <!-- Création d'une liste par bloc -->
-    <div class="blocs"> <div class="titlecenter"> Nouveautés </div>
-      <!-- Premiere liste -->
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <title>Microsoft - Page d'accueil officielle</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" id="micro" href="#"> <img src="assets/img/microsoft.png" alt="" /> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="underline">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://products.office.com/fr-fr/home">Office <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.microsoft.com/fr-fr/windows/">Windows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.microsoft.com/fr-fr/surface">Surface</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.xbox.com/fr-FR/">Xbox</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.microsoft.com/fr-fr/store/b/sale">Offres spéciales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://support.microsoft.com/fr-fr">Support technique</a>
+          </li>
+        </ul>
+        <ul class="nav-item dropdown justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tout microsoft
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="row">
+                <div class="blocs"> <div class="titlecenter"> Logiciels </div>
+                <!-- Premiere liste -->
+                <ul class="liste">
+                  <li>
+                    <a class="link" href=""> Application Windows </a>
+                  </li>
+                  <li>
+                    <a class="link" href=""> One Drive </a>
+                  </li>
+                  <li>
+                    <a class="link" href=""> Outlook </a>
+                  </li>
+                  <li>
+                    <a class="link" href=""> Skype </a>
+                  </li>
+                  <li>
+                    <a class="link" href=""> One Note </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Seconde liste -->
+              <div class="blocs"> <div class="titlecenter"> Pc et appareils </div>
+              <ul class="liste">
+                <li>
+                  <a class="link" href="#"> Pc et tablettesr </a>
+                </li>
+                <li>
+                  <a class="link" href="#"> Accéssoires </a>
+                </li>
+              </ul>
+            </div>
+            <div class="blocs"> <div class="titlecenter"> Divertissement </div>
+            <ul class="liste">
+              <li>
+                <a class="link" href="#"> Xbox et jeux </a>
+              </li>
+              <li>
+                <a class="link" href="#"> Jeux pc </a>
+              </li>
+              <li>
+                <a class="link" href="#"> Jeux pour Windows </a>
+              </li>
+              <li>
+                <a class="link" href="#"> Films et TV </a>
+              </li>
+            </ul>
+          </div>
+          <div class="blocs"> <div class="titlecenter"> Entreprise </div>
+          <ul class="liste">
+            <li>
+              <a class="link" href="#"> Microsoft Azure </a>
+            </li>
+            <li>
+              <a class="link" href="#"> Microsoft Dynamic 365 </a>
+            </li>
+            <li>
+              <a class="link" href="#"> Microsoft 365 </a>
+            </li>
+            <li>
+              <a class="link" href="#"> Microsoft Industry</a>
+            </li>
+            <li>
+              <a class="link" href="#"> Plateforme de données </a>
+            </li>
+            <li>
+              <a class="link" href="#"> Microsoft Advertising</a>
+            </li>
+            <li>
+              <a class="link" href="#"> Licences </a>
+            </li>
+          </ul>
+        </div>
+        <div class="blocs"> <div class="titlecenter"> Autres </div>
+        <ul class="liste">
+          <li>
+            <a class="link" href="#"> Microsoft Store </a>
+          </li>
+          <li>
+            <a class="link" href="#"> Microsoft Rewards </a>
+          </li>
+          <li>
+            <a class="link" href="#"> Education </a>
+          </li>
+        </ul>
+      </div>
+      <div class="blocs"> <div class="titlecenter"> développeurs & IT </div>
       <ul class="liste">
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/p/surface-pro-x/8vdnrp2m6hhc?activetab=overview"> Surface pro X </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/p/surface-laptop-3/8VFGGH1R94TM?activetab=overview"> Surface Laptop 3 </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/p/surface-pro-7/8N17J0M5ZZQS?activetab=overview"> Surface pro 7 </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/windows/windows-10-apps"> Application Windows 10 </a>
-          </li>
-          <li>
-            <a class="link" href="https://appsource.microsoft.com/fr-fr/marketplace/apps?product=office&page=1&src=office&corrid=a75707e0-6757-4762-99ad-a62d5da2bde8&omexanonuid=9c44afbd-6d19-4bc8-a2ad-4d007f2a2946&referralurl=https%3a%2f%2fwww.microsoft.com%2ffr-fr%2f"> Application Office </a>
-          </li>
+        <li>
+          <a class="link" href="#"> .NET </a>
+        </li>
+        <li>
+          <a class="link" href="#"> Visual Studio </a>
+        </li>
+        <li>
+          <a class="link" href="#"> Windows server </a>
+        </li>
+        <li>
+          <a class="link" href="#"> Docs </a>
+        </li>
       </ul>
     </div>
-    <!-- Seconde liste -->
-    <div class="blocs"> <div class="titlecenter"> Microsoft Store </div>
-      <ul class="liste">
-          <li>
-            <a class="link" href="https://appsource.microsoft.com/fr-fr/marketplace/apps?product=office&page=1&src=office&corrid=a75707e0-6757-4762-99ad-a62d5da2bde8&omexanonuid=9c44afbd-6d19-4bc8-a2ad-4d007f2a2946&referralurl=https%3a%2f%2fwww.microsoft.com%2ffr-fr%2f"> Profil du compte </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/download"> Centre de téléchargement </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/download"> Support du Microsoft Store </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/download"> Retours </a>
-          </li>
-          <li>
-            <a class="link" href="https://account.microsoft.com/orders"> Suivi des commandes </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/store/b/recycling?icid=GlobalFooterNav"> Recycler </a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/store/b/aboutwarranties?icid=GlobalFooterNav"> Garanties commerciales </a>
-          </li>
-      </ul>
-    </div>
-    <!-- Troisieme bloc -->
-    <div class="blocs"> <div class="titlecenter"> Education </div>
-      <ul class="liste">
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/education"> Microsoft pour l'éducation</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/education/products/office/default.aspx"> Office pour étudiants</a>
-          </li>
-          <li>
-            <a class="link" href="https://products.office.com/fr-fr/academic/compare-office-365-education-plans"> Office 365 pour les écoles</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/store/b/student?icid=CNavfooter_Studentsandeducation"> Offres ppur étudiants & parents</a>
-          </li>
-          <li>
-            <a class="link" href="https://azure.microsoft.com/fr-fr/education/"> Microsoft Azure pour l'éducation</a>
-          </li>
-      </ul>
-    </div>
-    <!-- Quatrieme bloc -->
-    <div class="blocs"> <div class="titlecenter">Entreprise </div>
-      <ul class="liste">
-          <li>
-            <a class="link" href="https://azure.microsoft.com/fr-fr/"> Azure</a>
-          </li>
-          <li>
-            <a class="link" href="https://appsource.microsoft.com/fr/"> AppSource</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/automotive?rtc=1"> Automobile</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/government?rtc=1&activetab=pillar1%3aprimaryr6"> Fonction publique</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/health?rtc=1"> Santé</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/manufacturing?rtc=1&activetab=pillars%3aprimaryr3"> Industrie</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/financial-services/banking-and-capital-markets?rtc=1&activetab=pillars%3aprimaryr5"> Banque d'assurance</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/retail-consumer-goods?rtc=1"> Distribution</a>
-          </li>
-      </ul>
-    </div>
-    <!-- Cinquieme bloc -->
-    <div class="blocs"> <div class="titlecenter"> Développeur </div>
-      <ul class="liste">
-          <li>
-            <a class="link" href="https://visualstudio.microsoft.com/fr/?rr=https%3A%2F%2Fwww.microsoft.com%2Ffr-fr%2F"> Microsoft Visual Studio</a>
-          </li>
-          <li>
-            <a class="link" href="https://developer.microsoft.com/fr-fr/windows"> Centre de développement Windows</a>
-          </li>
-          <li>
-            <a class="link" href="https://msdn.microsoft.com/fr-fr"> Réseau de développeurs</a>
-          </li>
-          <li>
-            <a class="link" href="https://technet.microsoft.com/fr-fr"> TechNet</a>
-          </li>
-          <li>
-            <a class="link" href="https://developer.microsoft.com/fr-fr/store/register"> Programme pour développeur Microsoft</a>
-          </li>
-          <li>
-            <a class="link" href="https://channel9.msdn.com/"> Channel 9</a>
-          </li>
-          <li>
-            <a class="link" href="https://developer.microsoft.com/fr-fr/office">Centre des développeurs Office</a>
-          </li>
-      </ul>
-    </div>
-    <!-- Sixieme bloc -->
-    <div class="blocs"> <div class="titlecenter"> Société </div>
-      <ul class="liste">
-          <li>
-            <a class="link" href="https://careers.microsoft.com/us/en"> Emploi</a>
-          </li>
-          <li>
-            <a class="link" href="https://news.microsoft.com/fr-fr/"> Actualités de la société</a>
-          </li>
-          <li>
-            <a class="link" href="https://privacy.microsoft.com/fr-fr"> Confidentialité chez Microsoft</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/en-us/investor"> Investisseurs</a>
-          </li>
-          <li>
-            <a class="link" href="https://www.microsoft.com/fr-fr/security"> Sécurité</a>
-          </li>
-      </ul>
-    </div>
-      <!-- Derniere liste, en ligne, en bas  -->
+  </div>
+</div>
+</li>
+<li class="nav-item">
+  <div class="picto">
+    <a class="nav-link" href="#">Rechercher <img src="assets/img/loupe.png" alt=""></a></div>
+  </li>
+  <li class="nav-item">
+    <div class="picto">
+      <a class="nav-link" href="#">Panier <img src="assets/img/caddie.png" alt=""></a></div>
+    </li>
+    <li class="nav-item">
+      <div id="contact">
+        <a class="nav-link" href="#">Se connecter <img src="assets/img/contact.png" alt=""></a></div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+<footer>
+  <div class="blocs"> <div class="titlecenter"> Nouveautés </div>
+  <!-- Premiere liste -->
+  <ul class="liste">
+    <li>
+      <a class="link" href="https://www.microsoft.com/fr-fr/p/surface-pro-x/8vdnrp2m6hhc?activetab=overview"> Surface pro X </a>
+    </li>
+    <li>
+      <a class="link" href="https://www.microsoft.com/fr-fr/p/surface-laptop-3/8VFGGH1R94TM?activetab=overview"> Surface Laptop 3 </a>
+    </li>
+    <li>
+      <a class="link" href="https://www.microsoft.com/fr-fr/p/surface-pro-7/8N17J0M5ZZQS?activetab=overview"> Surface pro 7 </a>
+    </li>
+    <li>
+      <a class="link" href="https://www.microsoft.com/fr-fr/windows/windows-10-apps"> Application Windows 10 </a>
+    </li>
+    <li>
+      <a class="link" href="https://appsource.microsoft.com/fr-fr/marketplace/apps?product=office&page=1&src=office&corrid=a75707e0-6757-4762-99ad-a62d5da2bde8&omexanonuid=9c44afbd-6d19-4bc8-a2ad-4d007f2a2946&referralurl=https%3a%2f%2fwww.microsoft.com%2ffr-fr%2f"> Application Office </a>
+    </li>
+  </ul>
+</div>
+<!-- Seconde liste -->
+<div class="blocs"> <div class="titlecenter"> Microsoft Store </div>
+<ul class="liste">
+  <li>
+    <a class="link" href="https://appsource.microsoft.com/fr-fr/marketplace/apps?product=office&page=1&src=office&corrid=a75707e0-6757-4762-99ad-a62d5da2bde8&omexanonuid=9c44afbd-6d19-4bc8-a2ad-4d007f2a2946&referralurl=https%3a%2f%2fwww.microsoft.com%2ffr-fr%2f"> Profil du compte </a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/download"> Centre de téléchargement </a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/download"> Support du Microsoft Store </a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/download"> Retours </a>
+  </li>
+  <li>
+    <a class="link" href="https://account.microsoft.com/orders"> Suivi des commandes </a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/store/b/recycling?icid=GlobalFooterNav"> Recycler </a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/store/b/aboutwarranties?icid=GlobalFooterNav"> Garanties commerciales </a>
+  </li>
+</ul>
+</div>
+<!-- Troisieme bloc -->
+<div class="blocs"> <div class="titlecenter"> Education </div>
+<ul class="liste">
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/education"> Microsoft pour l'éducation</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/education/products/office/default.aspx"> Office pour étudiants</a>
+  </li>
+  <li>
+    <a class="link" href="https://products.office.com/fr-fr/academic/compare-office-365-education-plans"> Office 365 pour les écoles</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/store/b/student?icid=CNavfooter_Studentsandeducation"> Offres ppur étudiants & parents</a>
+  </li>
+  <li>
+    <a class="link" href="https://azure.microsoft.com/fr-fr/education/"> Microsoft Azure pour l'éducation</a>
+  </li>
+</ul>
+</div>
+<!-- Quatrieme bloc -->
+<div class="blocs"> <div class="titlecenter">Entreprise </div>
+<ul class="liste">
+  <li>
+    <a class="link" href="https://azure.microsoft.com/fr-fr/"> Azure</a>
+  </li>
+  <li>
+    <a class="link" href="https://appsource.microsoft.com/fr/"> AppSource</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/automotive?rtc=1"> Automobile</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/government?rtc=1&activetab=pillar1%3aprimaryr6"> Fonction publique</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/health?rtc=1"> Santé</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/manufacturing?rtc=1&activetab=pillars%3aprimaryr3"> Industrie</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/financial-services/banking-and-capital-markets?rtc=1&activetab=pillars%3aprimaryr5"> Banque d'assurance</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/enterprise/retail-consumer-goods?rtc=1"> Distribution</a>
+  </li>
+</ul>
+</div>
+<!-- Cinquieme bloc -->
+<div class="blocs"> <div class="titlecenter"> Développeur </div>
+<ul class="liste">
+  <li>
+    <a class="link" href="https://visualstudio.microsoft.com/fr/?rr=https%3A%2F%2Fwww.microsoft.com%2Ffr-fr%2F"> Microsoft Visual Studio</a>
+  </li>
+  <li>
+    <a class="link" href="https://developer.microsoft.com/fr-fr/windows"> Centre de développement Windows</a>
+  </li>
+  <li>
+    <a class="link" href="https://msdn.microsoft.com/fr-fr"> Réseau de développeurs</a>
+  </li>
+  <li>
+    <a class="link" href="https://technet.microsoft.com/fr-fr"> TechNet</a>
+  </li>
+  <li>
+    <a class="link" href="https://developer.microsoft.com/fr-fr/store/register"> Programme pour développeur Microsoft</a>
+  </li>
+  <li>
+    <a class="link" href="https://channel9.msdn.com/"> Channel 9</a>
+  </li>
+  <li>
+    <a class="link" href="https://developer.microsoft.com/fr-fr/office">Centre des développeurs Office</a>
+  </li>
+</ul>
+</div>
+<!-- Sixieme bloc -->
+<div class="blocs"> <div class="titlecenter"> Société </div>
+<ul class="liste">
+  <li>
+    <a class="link" href="https://careers.microsoft.com/us/en"> Emploi</a>
+  </li>
+  <li>
+    <a class="link" href="https://news.microsoft.com/fr-fr/"> Actualités de la société</a>
+  </li>
+  <li>
+    <a class="link" href="https://privacy.microsoft.com/fr-fr"> Confidentialité chez Microsoft</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/en-us/investor"> Investisseurs</a>
+  </li>
+  <li>
+    <a class="link" href="https://www.microsoft.com/fr-fr/security"> Sécurité</a>
+  </li>
+</ul>
+</div>
+<!-- Derniere liste, en ligne, en bas  -->
 <div id="line">
-      <ul class="inline">
-          <li>
-            <span id="hearth">
-            <a class="link" href="https://www.microsoft.com/en-us/locale.aspx?absoluteReturnUrl=https%3a%2f%2fwww.microsoft.com%2ffr-fr%2f"><img src="assets/img/terre.png" alt="Petit icone de planète">Français (France) </a></span>
-          </li>
-          <span id="goleft">
-          <li>
-            <a class="link" href="https://support.microsoft.com/fr-fr/contactus/"> Contacter Microsoft</a>
+  <ul class="inline">
+    <li>
+      <span id="hearth">
+        <a class="link" href="https://www.microsoft.com/en-us/locale.aspx?absoluteReturnUrl=https%3a%2f%2fwww.microsoft.com%2ffr-fr%2f"><img src="assets/img/terre.png" alt="Petit icone de planète">Français (France) </a></span>
+      </li>
+      <span id="goleft">
+        <li>
+          <a class="link" href="https://support.microsoft.com/fr-fr/contactus/"> Contacter Microsoft</a>
           <li>
             <a class="link" href="https://privacy.microsoft.com/fr-fr/privacystatement">  Confidentialité et Cookies </a>
           </li>
@@ -186,10 +334,11 @@
           </li>
         </li></span>
       </ul>
-  </div>
-
-
-
-
+    </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js%22%3E"></script>
+</body>
 </html>
